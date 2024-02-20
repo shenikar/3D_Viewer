@@ -45,7 +45,7 @@ clean:
 	rm -rf  *.html *.css test.info test.dSYM report temp_obj.obj
 
 dvi :
-	${OPEN_CMD} Readme.md
+	${OPEN_CMD} ../Readme.md
 
 dist:
 	rm -rf dist.tar
